@@ -1,5 +1,5 @@
-import StudentInfo from "./student-info";
 
+import StudentInfo from "./student-info";
 import Link from "next/link";
 
 
@@ -14,6 +14,8 @@ export default function page() {
           <Link href="week3">  Week 3  </Link>
           <p></p>
           <Link href="week4">  Week 4  </Link>
+          <p></p>
+          <Link href="week5">  Week 5  </Link>
         </div>
     </main>
   )
