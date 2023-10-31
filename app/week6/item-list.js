@@ -4,7 +4,7 @@ import Item from "./item";
 
 export default function ItemList({ items }) { 
 
-    const itemsArray = [...items];
+    const itemsArray = Array.isArray(items) ? [...items] : [];
 
     const [sortBy, setSortBy] = useState('name');
 

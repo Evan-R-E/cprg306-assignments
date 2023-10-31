@@ -18,7 +18,6 @@ export default function Page(){
             }
             <ItemList items = {items} />{
             }
-            <ItemList />
         </main>
     );
 }
